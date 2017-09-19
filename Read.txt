@@ -1,0 +1,4 @@
+# xBiel_API
+API For developers.
+
+This API is free for use by any user. Only my credit is allowed.
