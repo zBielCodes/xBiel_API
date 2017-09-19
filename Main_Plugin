@@ -1,0 +1,18 @@
+package me.bielcodes.api_private;
+
+import org.bukkit.Bukkit;
+import org.bukkit.plugin.Plugin;
+import org.bukkit.plugin.java.JavaPlugin;
+
+public class Main extends JavaPlugin{
+	
+	private static final Plugin Plugin = plugin;
+	public static final Plugin plugin = Plugin;
+	
+
+	public void onEnable() {
+		Bukkit.getMessenger().registerOutgoingPluginChannel(this, "BungeeCord");
+		
+	}
+
+}
